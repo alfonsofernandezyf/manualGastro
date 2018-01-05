@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Capítulo 5</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <pdf-viewer [src]="'assets/manual-de-gastroenterologia-capitulo5.pdf'" 
+                [page]="page" 
+                [fit-to-page]="true"
+                [show-all]="true"
+                [autoresize]="true"
+                [original-size]="false"
+                style="display: block;">
+
+    </pdf-viewer>
+ 
+  </ion-content> 
