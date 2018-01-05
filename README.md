@@ -1,2 +1,0 @@
-# manualGastro
-Manual de Gastroenterología
