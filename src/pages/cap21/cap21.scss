@@ -1,3 +1,383 @@
 page-cap21 {
 
+    body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+        margin:0;
+        padding:0;
+        border-width:0;
+    }
+    body {
+        -epub-hyphens:auto;
+    }
+    div.Marco-de-texto-b-sico {
+        border-style:solid;
+    }
+    p.Autores {
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:20px;
+        font-style:normal;
+        font-variant:small-caps;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:80px;
+        margin-left:0;
+        margin-right:20px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:right;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Bullet {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        margin-bottom:0;
+        margin-left:35px;
+        margin-right:10px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:justify;
+        text-align-last:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Bullet-3-guiones-OK {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        list-style-position:inside;
+        margin-bottom:0;
+        margin-left:72px;
+        margin-right:10px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:justify;
+        text-align-last:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Bullets-guiones {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        list-style-position:inside;
+        margin-bottom:0;
+        margin-left:35px;
+        margin-right:10px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:justify;
+        text-align-last:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Bullets-puntos-ok {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        list-style-position:inside;
+        list-style-type:disc;
+        margin-bottom:0;
+        margin-left:35px;
+        margin-right:10px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:justify;
+        text-align-last:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Num--capitulo {
+        -epub-hyphens:none;
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:48px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:50px;
+        margin-left:5px;
+        margin-right:5px;
+        margin-top:10px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:center;
+        text-decoration:none;
+        text-indent:5px;
+        text-transform:none;
+        widows:1;
+    }
+    p.Pie-de-foto {
+        -epub-hyphens:none;
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:15px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:center;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Referencias {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:14px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        list-style-position:inside;
+        list-style-type:decimal;
+        margin-bottom:5px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:justify;
+        text-align-last:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Texto {
+        -epub-hyphens:none;
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:10px;
+        margin-right:5px;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Titulo-1 {
+        -epub-hyphens:none;
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:22px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:10px;
+        margin-right:5px;
+        margin-top:15px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:uppercase;
+        widows:1;
+    }
+    p.Titulo-2 {
+        -epub-hyphens:none;
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:18px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:10px;
+        margin-right:5px;
+        margin-top:15px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Titulo-3 {
+        -epub-hyphens:none;
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:18px;
+        font-style:italic;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:10px;
+        margin-right:5px;
+        margin-top:15px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.Titulo-cap {
+        -epub-hyphens:none;
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:38px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:40px;
+        margin-left:10px;
+        margin-right:5px;
+        margin-top:10px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    span.Amarillo-16-pts {
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:16px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        text-transform:none;
+    }
+    span.Azul-15-pts-bold-bullet {
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:15px;
+        font-style:normal;
+        font-weight:bold;
+    }
+    p.ParaOverride-1 {
+        list-style-type:none;
+        margin-bottom:20px;
+    }
+    p.ParaOverride-2 {
+        text-align:center;
+    }
+    p.ParaOverride-3 {
+        margin-bottom:20px;
+    }
+    p.ParaOverride-4 {
+        list-style-type:none;
+    }
+    p.ParaOverride-5 {
+        margin-bottom:20px;
+        text-align:center;
+    }
+    p.ParaOverride-6 {
+        margin-bottom:40px;
+    }
+    p.ParaOverride-7 {
+        margin-bottom:3px;
+    }
+    p.ParaOverride-8 {
+        list-style-type:none;
+        margin-bottom:80px;
+    }
+    span.CharOverride-1 {
+        font-style:italic;
+        font-weight:normal;
+    }
+    span.CharOverride-2 {
+        font-family:"Gandhi Serif", serif;
+        font-style:normal;
+        font-weight:normal;
+    }
+    span.CharOverride-3 {
+        font-style:normal;
+        font-weight:bold;
+    }
+    span.CharOverride-4 {
+        color:#1a428a;
+        font-style:normal;
+        font-weight:bold;
+    }
+    span.CharOverride-5 {
+        font-size:58%;
+        vertical-align:sub;
+    }
+    span.CharOverride-6 {
+        font-style:italic;
+        font-weight:bold;
+    }
+    span.CharOverride-7 {
+        font-size:17px;
+    }
+
+    div._idGenObjectStyleOverride-1 {
+        border-width:0px;
+    }
+    
+
 }

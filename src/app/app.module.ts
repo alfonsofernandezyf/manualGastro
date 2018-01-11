@@ -43,7 +43,6 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 
-
 @NgModule({
   declarations: [
     MyApp,
@@ -122,3 +121,4 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
   ]
 })
 export class AppModule {}
+
