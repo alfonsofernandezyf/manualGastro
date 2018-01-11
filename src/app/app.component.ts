@@ -59,8 +59,6 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Índice completo', component: IndicePage },
-      { title: 'Agradecimientos', component: AgradecimientosPage },
-      { title: 'Autores y coautores', component: AutoresPage },
       { title: 'Prologo', component: PrologoPage },
       { title: 'Capítulo 1', component: Cap1Page },
       { title: 'Capítulo 2', component: Cap2Page },      
@@ -86,7 +84,9 @@ export class MyApp {
       { title: 'Capítulo 22', component: Cap22Page },    
       { title: 'Capítulo 23', component: Cap23Page },    
       { title: 'Capítulo 24', component: Cap24Page },    
-      { title: 'Índice de materias', component: Cap25Page },    
+      { title: 'Agradecimientos', component: AgradecimientosPage },
+      { title: 'Autores y coautores', component: AutoresPage },
+      { title: 'Créditos', component: Cap25Page },    
 
     ];
 

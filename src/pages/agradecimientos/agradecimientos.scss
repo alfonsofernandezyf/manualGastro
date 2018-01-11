@@ -1,3 +1,60 @@
 page-agradecimientos {
+    body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+        margin:0;
+        padding:0;
+        border-width:0;
+    }
+    body {
+        -epub-hyphens:auto;
+    }
+    p.TEXTO {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        margin-bottom:15px;
+        margin-left:0;
+        margin-right:0;
+        margin-top:0;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:center;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.TITULOS {
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:30px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:100px;
+        margin-left:0;
+        margin-right:0;
+        margin-top:10px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:center;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.ParaOverride-1 {
+        margin-bottom:80px;
+    }
+    div._idGenObjectStyleOverride-1 {
+        border-width:0px;
+    }
+    
 
 }

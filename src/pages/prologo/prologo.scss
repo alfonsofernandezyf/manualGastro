@@ -1,3 +1,78 @@
 page-prologo {
 
+    body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+        margin:0;
+        padding:0;
+        border-width:0;
+    }
+    body {
+        -epub-hyphens:auto;
+    }
+    p.TEXTO {
+        color:#000000;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:17px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:1.2;
+        margin-bottom:0;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:20px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.TITULOS {
+        color:#1a428a;
+        font-family:"Trebuchet MS", sans-serif;
+        font-size:30px;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        line-height:1.2;
+        margin-bottom:100px;
+        margin-left:0;
+        margin-right:0;
+        margin-top:10px;
+        orphans:1;
+        page-break-after:auto;
+        page-break-before:auto;
+        text-align:center;
+        text-decoration:none;
+        text-indent:0;
+        text-transform:none;
+        widows:1;
+    }
+    p.ParaOverride-1 {
+        -epub-hyphens:none;
+    }
+    p.ParaOverride-2 {
+        -epub-hyphens:none;
+        margin-top:10px;
+    }
+    p.ParaOverride-3 {
+        -epub-hyphens:none;
+        text-align:right;
+    }
+    p.ParaOverride-4 {
+        -epub-hyphens:none;
+        margin-top:5px;
+        text-align:right;
+    }
+    span.CharOverride-1 {
+        font-style:italic;
+        font-weight:normal;
+    }
+    div._idGenObjectStyleOverride-1 {
+        border-width:0px;
+    }
+    
+
 }
