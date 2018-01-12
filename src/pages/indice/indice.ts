@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { LoadingController } from 'ionic-angular';
+
 
 
 @IonicPage({ name: 'IndicePage'})
@@ -14,101 +16,149 @@ export class IndicePage {
 
   OtherPage: any = '';    
 
-  constructor(private iab: InAppBrowser, public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(private iab: InAppBrowser, public navCtrl: NavController, public navParams: NavParams, public loadingCtrl: LoadingController) {}
+  
+  presentLoadingDefault() {
+    let loading = this.loadingCtrl.create({
+      content: 'Cargando, espere...'
+    });
+  
+    loading.present();
+  
+    setTimeout(() => {
+      loading.dismiss();
+    }, 2000);
+  }  
+  
   
   goToPrologoPage(){
-  this.navCtrl.push('PrologoPage');
+  this.presentLoadingDefault();
+  setTimeout(() => {
+    this.navCtrl.push('PrologoPage');
+  }, 1000);     
   }
   
   
    
    goToAgradecimientosPage(){
-    this.navCtrl.push('AgradecimientosPage');
+    this.presentLoadingDefault();
+    setTimeout(() => {
+      this.navCtrl.push('AgradecimientosPage');}, 100);   
    }
 
    goToAutoresPage(){
+    this.presentLoadingDefault();
     this.navCtrl.push('AutoresPage');
    }
    goToCap1Page(){
-    this.navCtrl.push('Cap1Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap1Page'); }, 100);    
    }
+
    goToCap2Page(){
-    this.navCtrl.push('Cap2Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap2Page'); }, 100);    
+    
    }
    goToCap3Page(){
-    this.navCtrl.push('Cap3Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap3Page'); }, 100);    
    }
    goToCap4Page(){
-    this.navCtrl.push('Cap4Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap4Page'); }, 100);    
    }
    goToCap5Page(){
-    this.navCtrl.push('Cap5Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap5Page'); }, 100);    
    }
    goToCap6Page(){
-    this.navCtrl.push('Cap6Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap6Page'); }, 100);    
    }
    goToCap7Page(){
-    this.navCtrl.push('Cap7Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap7Page'); }, 100);    
    }
+
    goToCap8Page(){
-    this.navCtrl.push('Cap8Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap8Page'); }, 100);    
    }
    goToCap9Page(){
-    this.navCtrl.push('Cap9Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap9Page'); }, 100);    
    }
    goToCap10Page(){
-    this.navCtrl.push('Cap10Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap10Page'); }, 100);    
    }
    goToCap11Page(){
-    this.navCtrl.push('Cap11Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap11Page'); }, 100);    
    }
 
    goToCap12Page(){
-    this.navCtrl.push('Cap12Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap12Page'); }, 100);    
    }
 
    goToCap13Page(){
-    this.navCtrl.push('Cap13Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap13Page'); }, 100);    
    }
    goToCap14Page(){
-    this.navCtrl.push('Cap14Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap14Page'); }, 100);    
    }
    goToCap15Page(){
-    this.navCtrl.push('Cap15Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap15Page'); }, 100);    
    }
    goToCap16Page(){
-    this.navCtrl.push('Cap16Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap16Page'); }, 100);    
    }
    goToCap17Page(){
-    this.navCtrl.push('Cap17Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap17Page'); }, 100);    
    }
    goToCap18Page(){
-    this.navCtrl.push('Cap18Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap18Page'); }, 100);    
    }
    goToCap19Page(){
-    this.navCtrl.push('Cap19Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap19Page'); }, 100);    
    }
    goToCap20Page(){
-    this.navCtrl.push('Cap20Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap20Page'); }, 100);    
    }
    goToCap21Page(){
-    this.navCtrl.push('Cap21Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap21Page'); }, 100);    
    }
    goToCap22Page(){
-    this.navCtrl.push('Cap22Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap22Page'); }, 100);    
    }
    goToCap23Page(){
-    this.navCtrl.push('Cap23Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap23Page'); }, 100);    
    }
    goToCap24Page(){
-    this.navCtrl.push('Cap24Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap24Page'); }, 100);    
    }
    goToCap25Page(){
-    this.navCtrl.push('Cap25Page');
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('Cap25Page'); }, 100);    
    }
    
 
    OpenUrl(){
+    this.presentLoadingDefault();
     const browser = this.iab.create('http://www.senosiain.com.mx/');
     browser.show()
   }

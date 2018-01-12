@@ -26,7 +26,6 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Índice completo', component: 'IndicePage' },
       { title: 'Prologo', component: 'PrologoPage' },
       { title: 'Capítulo 1', component: 'Cap1Page' },
       { title: 'Capítulo 2', component: 'Cap2Page' },
@@ -85,14 +84,18 @@ export class MyApp {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     this.presentLoadingDefault();
-    this.nav.setRoot(page.component);
+    setTimeout(() => {
+      this.nav.push(page.component);
+    }, 1000);
+    
+    
   }
 
  
 
   OpenUrl(){
-    const browser = this.iab.create('http://www.senosiain.com.mx/');
     this.presentLoadingDefault();
+    const browser = this.iab.create('http://www.senosiain.com.mx/');
     browser.show()
   }
 
