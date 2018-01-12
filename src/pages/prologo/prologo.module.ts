@@ -9,5 +9,7 @@ import { PrologoPage } from './prologo';
   imports: [
     IonicPageModule.forChild(PrologoPage),
   ],
+  exports:[PrologoPage]
+  
 })
 export class PrologoPageModule {}

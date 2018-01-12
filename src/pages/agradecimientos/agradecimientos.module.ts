@@ -9,5 +9,7 @@ import { AgradecimientosPage } from './agradecimientos';
   imports: [
     IonicPageModule.forChild(AgradecimientosPage),
   ],
+  exports: [AgradecimientosPage]
+  
 })
 export class AgradecimientosPageModule {}

@@ -9,5 +9,7 @@ import { Cap3Page } from './cap3';
   imports: [
     IonicPageModule.forChild(Cap3Page),
   ],
+  exports: [Cap3Page]
+  
 })
 export class Cap3PageModule {}

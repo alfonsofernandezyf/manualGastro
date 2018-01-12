@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
-import * as jsPDF from 'jspdf'
+import { Component } from '@angular/core';  
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+   
 
 
 /**
@@ -10,7 +10,8 @@ import * as jsPDF from 'jspdf'
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({ name: 'Cap22Page'})
+
 @Component({
   selector: 'page-cap22',
   templateUrl: 'cap22.html',
@@ -18,17 +19,17 @@ import * as jsPDF from 'jspdf'
 export class Cap22Page {
 
   
-  pdfSrc: string = 'assets/pdf1.pdf';
+ 
   
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
 
   }
 
   ionViewDidLoad() {
-    var doc = new jsPDF('assets/pdf1.pdf');
+  
 
-    var blob = doc.output('blob', {type: 'application/pdf'});
-    this.pdfSrc = URL.createObjectURL(blob)
+  
+   
   }
 
 }

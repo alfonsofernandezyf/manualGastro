@@ -10,7 +10,7 @@ import { IonicPage, NavController } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({ name: 'Cap17Page'})
 @Component({
   selector: 'page-cap17',
   templateUrl: 'cap17.html',

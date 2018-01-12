@@ -9,5 +9,6 @@ import { AutoresPage } from './autores';
   imports: [
     IonicPageModule.forChild(AutoresPage),
   ],
+  exports:[AutoresPage]
 })
 export class AutoresPageModule {}
