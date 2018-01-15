@@ -163,7 +163,12 @@ export class IndicePage {
     browser.show()
   }
 
-  
+  goToSenosiain(){
+    this.presentLoadingDefault();
+    setTimeout(() => { this.navCtrl.push('SenosiainPage'); }, 100);
+    }
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad IndicePage');
