@@ -23,11 +23,4 @@ export class Cap7Page {
 
   }
 
-  ionViewDidLoad() {
-  
-
-  
-   
-  }
-
 }

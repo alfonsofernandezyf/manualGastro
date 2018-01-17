@@ -21,8 +21,4 @@ export class Cap17Page {
 
   }
 
-  ionViewDidLoad() {
-
-  }
-
 }

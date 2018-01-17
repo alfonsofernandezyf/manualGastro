@@ -3,8 +3,17 @@
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Capítulo 11</ion-title>
-    </ion-navbar>
+	  <ion-title>Capítulo 11</ion-title>
+	  
+	</ion-navbar>
+	<ion-searchbar
+	[(ngModel)]="myInput"
+	[showCancelButton]="shouldShowCancel"
+	(ionInput)="highlight($event)"
+	(ionCancel)="onCancel($event)"></ion-searchbar>
+	<ion-list>
+
+	</ion-list>
   </ion-header>
   
   <ion-content padding>
@@ -691,7 +700,7 @@
 			<p class="Referencias ParaOverride-2"><span class="Amarillo-16-pts">35.&#9;</span>Sajid MS, Whitehouse PA, Sains P, et al. Systematic review of the use of topica diltiazem compared with glyceryl trinitrate for the nonoperative management of chronic anal fissure. Colorectal Dis 2013;15:19–26.</p>
 			<p class="Referencias ParaOverride-2"><span class="Amarillo-16-pts">36.&#9;</span>Shao WJ, Li GC, Zhang ZK (2009) Systematic review and metaanalysis of randomized controlled trials comparing botulinum toxin with injection with lateral internal sphincterotomy for chronic anal fissure. Int J Colorectal Dis 24:995– 1000 10.</p>
 			<p class="Referencias ParaOverride-2"><span class="Amarillo-16-pts">37.&#9;</span>Shawki S, Sands DR. Anorectal physiology. In: Sands LR, Sands DR, editors. Ambulatory colorectal surgery. 1st edition. New York: Informa Healthcare; 2008. p.&#160;21–44.</p>
-			<p class="Referencias ParaOverride-10"><span class="Amarillo-16-pts">38.&#9;</span>A. Arroyo, E. Miranda, F. Pérez, A. Sánchez, P. Serrano, R. Calpena Tratamiento de la proctalgia en el síndrome fisurario anal. Rev. Soc. Esp. Dolor 2007;3:204-210.</p>
+			<p class="Referencias ParaOverride-2"><span class="Amarillo-16-pts">38.&#9;</span>A. Arroyo, E. Miranda, F. Pérez, A. Sánchez, P. Serrano, R. Calpena Tratamiento de la proctalgia en el síndrome fisurario anal. Rev. Soc. Esp. Dolor 2007;3:204-210.</p>
 		</div>
  
   </ion-content> 

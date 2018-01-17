@@ -17,11 +17,24 @@ import { IonicPage, NavController } from 'ionic-angular';
 export class Cap11Page {
 
   
- 
-  
+   
   constructor(public navCtrl: NavController) {
 
   }
+  
+   private content: string;
+    public query: string;
+
+
+    public highlight() {
+        if(!this.query) {
+            return this.content;
+        }
+        return this.content.replace(new RegExp(this.query, "gi"), match => {
+            return '<span class="highlightText">' + match + '</span>';
+        });
+    }
+
 
   ionViewDidLoad() {
   
