@@ -1,0 +1,1386 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+div.Marco-de-texto-b-sico {
+	border-style:solid;
+}
+table.Ningún-estilo-de-tabla {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+td.Ningún-estilo-de-tabla {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+p.Autores {
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:80px;
+	margin-left:0;
+	margin-right:20px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Bullet-3-guiones-OK {
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:inside;
+	margin-bottom:0;
+	margin-left:72px;
+	margin-right:10px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Bullet-4-guiones-ok {
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:inside;
+	margin-bottom:0;
+	margin-left:107px;
+	margin-right:10px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Bullets-puntos-ok {
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:inside;
+	list-style-type:disc;
+	margin-bottom:0;
+	margin-left:35px;
+	margin-right:10px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Cuadros {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:15px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Num--capitulo {
+	-epub-hyphens:none;
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:48px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:50px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:5px;
+	text-transform:none;
+	widows:1;
+}
+p.Pie-de-foto {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:15px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Referencias {
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Texto {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:17px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Titulo-1 {
+	-epub-hyphens:none;
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:22px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:15px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:uppercase;
+	widows:1;
+}
+p.Titulo-2 {
+	-epub-hyphens:none;
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:18px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:15px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Titulo-3 {
+	-epub-hyphens:none;
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:18px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:15px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Titulo-4 {
+	-epub-hyphens:none;
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:17px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:15px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Titulo-cap {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:38px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:40px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.Amarillo-16-pts {
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-transform:none;
+}
+span.Azul-15-pts-bold-bullet {
+	color:#1a428a;
+	font-family:"Trebuchet MS", sans-serif;
+	font-size:15px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.st {
+	color:#000000;
+}
+table.TableOverride-1 {
+	border-collapse:collapse;
+	border-style:none;
+	border-width:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+td.CellOverride-1 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-2 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-3 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-4 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-5 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-6 {
+	background-color:#e8ecf3;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-7 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-8 {
+	background-color:#8da0c4;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-9 {
+	background-color:#bac6dc;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:middle;
+}
+td.CellOverride-10 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+td.CellOverride-11 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+td.CellOverride-12 {
+	background-color:#e8ecf3;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+td.CellOverride-13 {
+	background-color:#bac6dc;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+td.CellOverride-14 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-15 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-16 {
+	background-color:#1a428a;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-17 {
+	border-bottom-color:#000000;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-18 {
+	border-bottom-color:#000000;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-19 {
+	border-bottom-color:#000000;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-20 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-21 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-22 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-23 {
+	background-color:#e8ecf3;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+td.CellOverride-24 {
+	background-color:#bac6dc;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:1px;
+	vertical-align:top;
+}
+p.ParaOverride-1 {
+	list-style-type:none;
+}
+p.ParaOverride-2 {
+	margin-top:20px;
+}
+p.ParaOverride-3 {
+	margin-bottom:5px;
+}
+p.ParaOverride-4 {
+	margin-bottom:5px;
+	text-align:center;
+}
+p.ParaOverride-5 {
+	margin-bottom:5px;
+	margin-left:5px;
+	text-indent:-5px;
+}
+p.ParaOverride-6 {
+	list-style-type:none;
+	margin-bottom:3px;
+}
+p.ParaOverride-7 {
+	margin-bottom:5px;
+	margin-left:6px;
+	text-indent:-6px;
+}
+p.ParaOverride-8 {
+	margin-bottom:5px;
+	margin-left:12px;
+	text-indent:-12px;
+}
+p.ParaOverride-9 {
+	margin-bottom:3px;
+}
+p.ParaOverride-10 {
+	list-style-type:none;
+	margin-bottom:1px;
+}
+p.ParaOverride-11 {
+	margin-top:10px;
+}
+p.ParaOverride-12 {
+	text-align:center;
+}
+p.ParaOverride-13 {
+	margin-top:40px;
+}
+p.ParaOverride-14 {
+	margin-bottom:40px;
+}
+p.ParaOverride-15 {
+	list-style-type:none;
+	margin-bottom:80px;
+}
+span.CharOverride-1 {
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	font-family:"Gandhi Serif", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-4 {
+	color:#1a428a;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	color:#ffffff;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-6 {
+	color:#1a428a;
+}
+span.CharOverride-7 {
+	font-size:13px;
+}
+span.CharOverride-8 {
+	font-size:58%;
+	vertical-align:super;
+}
+span.CharOverride-9 {
+	font-size:58%;
+	vertical-align:sub;
+}
+span.CharOverride-10 {
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-11 {
+	color:#1a428a;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-12 {
+	font-size:8px;
+	vertical-align:super;
+}
+span.CharOverride-13 {
+	font-size:13px;
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-14 {
+	font-family:Symbol, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-15 {
+	font-size:13px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-16 {
+	font-size:17px;
+}
+td._idGenCellOverride-1 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+}
+col._idGenTableRowColumn-1 {
+	width:209px;
+}
+col._idGenTableRowColumn-2 {
+	width:432px;
+}
+col._idGenTableRowColumn-3 {
+	width:322px;
+}
+tr._idGenTableRowColumn-4 {
+	min-height:20px;
+}
+tr._idGenTableRowColumn-5 {
+	background-color:#e8ecf3;
+	min-height:72px;
+}
+tr._idGenTableRowColumn-6 {
+	background-color:#bac6dc;
+	min-height:36px;
+}
+tr._idGenTableRowColumn-7 {
+	background-color:#e8ecf3;
+	min-height:36px;
+}
+tr._idGenTableRowColumn-8 {
+	background-color:#bac6dc;
+	min-height:31px;
+}
+col._idGenTableRowColumn-9 {
+	width:182px;
+}
+col._idGenTableRowColumn-10 {
+	width:210px;
+}
+col._idGenTableRowColumn-11 {
+	width:290px;
+}
+col._idGenTableRowColumn-12 {
+	width:288px;
+}
+tr._idGenTableRowColumn-13 {
+	min-height:26px;
+}
+tr._idGenTableRowColumn-14 {
+	background-color:#e8ecf3;
+	min-height:54px;
+}
+tr._idGenTableRowColumn-15 {
+	background-color:#bac6dc;
+	min-height:74px;
+}
+tr._idGenTableRowColumn-16 {
+	background-color:#e8ecf3;
+	min-height:38px;
+}
+tr._idGenTableRowColumn-17 {
+	background-color:#bac6dc;
+	min-height:54px;
+}
+col._idGenTableRowColumn-18 {
+	width:323px;
+}
+tr._idGenTableRowColumn-19 {
+	min-height:25px;
+}
+tr._idGenTableRowColumn-20 {
+	background-color:#e8ecf3;
+	min-height:128px;
+}
+tr._idGenTableRowColumn-21 {
+	background-color:#e8ecf3;
+	min-height:31px;
+}
+tr._idGenTableRowColumn-22 {
+	background-color:#bac6dc;
+	min-height:20px;
+}
+tr._idGenTableRowColumn-23 {
+	background-color:#e8ecf3;
+	min-height:20px;
+}
+col._idGenTableRowColumn-24 {
+	width:962px;
+}
+tr._idGenTableRowColumn-25 {
+	min-height:238px;
+}
+col._idGenTableRowColumn-26 {
+	width:138px;
+}
+col._idGenTableRowColumn-27 {
+	width:119px;
+}
+tr._idGenTableRowColumn-28 {
+	background-color:#e8ecf3;
+	min-height:40px;
+}
+tr._idGenTableRowColumn-29 {
+	background-color:#bac6dc;
+	min-height:99px;
+}
+tr._idGenTableRowColumn-30 {
+	background-color:#e8ecf3;
+	min-height:85px;
+}
+tr._idGenTableRowColumn-31 {
+	background-color:#bac6dc;
+	min-height:94px;
+}
+col._idGenTableRowColumn-32 {
+	width:918px;
+}
+tr._idGenTableRowColumn-33 {
+	min-height:473px;
+}
+col._idGenTableRowColumn-34 {
+	width:970px;
+}
+tr._idGenTableRowColumn-35 {
+	background-color:#1a428a;
+	min-height:20px;
+}
+tr._idGenTableRowColumn-36 {
+	background-color:#e8ecf3;
+	min-height:588px;
+}
+tr._idGenTableRowColumn-37 {
+	background-color:#e8ecf3;
+	min-height:59px;
+}
+tr._idGenTableRowColumn-38 {
+	background-color:#1a428a;
+	min-height:82px;
+}
+col._idGenTableRowColumn-39 {
+	width:480px;
+}
+col._idGenTableRowColumn-40 {
+	width:490px;
+}
+tr._idGenTableRowColumn-41 {
+	min-height:22px;
+}
+tr._idGenTableRowColumn-42 {
+	background-color:#e8ecf3;
+	min-height:22px;
+}
+tr._idGenTableRowColumn-43 {
+	background-color:#bac6dc;
+	min-height:22px;
+}
+tr._idGenTableRowColumn-44 {
+	background-color:#e8ecf3;
+	min-height:289px;
+}
+tr._idGenTableRowColumn-45 {
+	background-color:#e8ecf3;
+	min-height:105px;
+}
+tr._idGenTableRowColumn-46 {
+	min-height:17px;
+}
+tr._idGenTableRowColumn-47 {
+	background-color:#e8ecf3;
+	min-height:155px;
+}
+tr._idGenTableRowColumn-48 {
+	background-color:#e8ecf3;
+	min-height:17px;
+}
+tr._idGenTableRowColumn-49 {
+	background-color:#bac6dc;
+	min-height:63px;
+}
+tr._idGenTableRowColumn-50 {
+	background-color:#bac6dc;
+	min-height:17px;
+}
+tr._idGenTableRowColumn-51 {
+	background-color:#e8ecf3;
+	min-height:86px;
+}
+tr._idGenTableRowColumn-52 {
+	background-color:#bac6dc;
+	min-height:86px;
+}
+tr._idGenTableRowColumn-53 {
+	background-color:#e8ecf3;
+	min-height:178px;
+}
+tr._idGenTableRowColumn-54 {
+	background-color:#e8ecf3;
+	min-height:63px;
+}
+col._idGenTableRowColumn-55 {
+	width:722px;
+}
+tr._idGenTableRowColumn-56 {
+	min-height:450px;
+}
+col._idGenTableRowColumn-57 {
+	width:276px;
+}
+col._idGenTableRowColumn-58 {
+	width:384px;
+}
+col._idGenTableRowColumn-59 {
+	width:310px;
+}
+tr._idGenTableRowColumn-60 {
+	background-color:#e8ecf3;
+	min-height:49px;
+}
+col._idGenTableRowColumn-61 {
+	width:130px;
+}
+col._idGenTableRowColumn-62 {
+	width:142px;
+}
+col._idGenTableRowColumn-63 {
+	width:152px;
+}
+col._idGenTableRowColumn-64 {
+	width:202px;
+}
+tr._idGenTableRowColumn-65 {
+	min-height:44px;
+}
+tr._idGenTableRowColumn-66 {
+	background-color:#e8ecf3;
+	min-height:67px;
+}
+tr._idGenTableRowColumn-67 {
+	background-color:#bac6dc;
+	min-height:49px;
+}
+tr._idGenTableRowColumn-68 {
+	background-color:#bac6dc;
+	min-height:67px;
+}
+col._idGenTableRowColumn-69 {
+	width:144px;
+}
+col._idGenTableRowColumn-70 {
+	width:200px;
+}
+tr._idGenTableRowColumn-71 {
+	min-height:73px;
+}
+tr._idGenTableRowColumn-72 {
+	min-height:42px;
+}
+tr._idGenTableRowColumn-73 {
+	background-color:#e8ecf3;
+	min-height:71px;
+}
+tr._idGenTableRowColumn-74 {
+	background-color:#bac6dc;
+	min-height:85px;
+}
+tr._idGenTableRowColumn-75 {
+	background-color:#e8ecf3;
+	min-height:50px;
+}
+tr._idGenTableRowColumn-76 {
+	background-color:#bac6dc;
+	min-height:103px;
+}
+col._idGenTableRowColumn-77 {
+	width:488px;
+}
+tr._idGenTableRowColumn-78 {
+	min-height:174px;
+}
+col._idGenTableRowColumn-79 {
+	width:986px;
+}
+tr._idGenTableRowColumn-80 {
+	min-height:27px;
+}
+col._idGenTableRowColumn-81 {
+	width:260px;
+}
+col._idGenTableRowColumn-82 {
+	width:324px;
+}
+col._idGenTableRowColumn-83 {
+	width:672px;
+}
+tr._idGenTableRowColumn-84 {
+	background-color:#e8ecf3;
+	min-height:121px;
+}
+col._idGenTableRowColumn-85 {
+	width:160px;
+}
+tr._idGenTableRowColumn-86 {
+	min-height:37px;
+}
+tr._idGenTableRowColumn-87 {
+	background-color:#bac6dc;
+	min-height:72px;
+}
+col._idGenTableRowColumn-88 {
+	width:262px;
+}
+col._idGenTableRowColumn-89 {
+	width:248px;
+}
+tr._idGenTableRowColumn-90 {
+	min-height:312px;
+}
+col._idGenTableRowColumn-91 {
+	width:241px;
+}
+col._idGenTableRowColumn-92 {
+	width:353px;
+}
+col._idGenTableRowColumn-93 {
+	width:359px;
+}
+col._idGenTableRowColumn-94 {
+	width:136px;
+}
+col._idGenTableRowColumn-95 {
+	width:133px;
+}
+col._idGenTableRowColumn-96 {
+	width:212px;
+}
+col._idGenTableRowColumn-97 {
+	width:180px;
+}
+tr._idGenTableRowColumn-98 {
+	min-height:54px;
+}
+col._idGenTableRowColumn-99 {
+	width:370px;
+}
+tr._idGenTableRowColumn-100 {
+	min-height:434px;
+}
+tr._idGenTableRowColumn-101 {
+	min-height:82px;
+}
+col._idGenTableRowColumn-102 {
+	width:412px;
+}
+col._idGenTableRowColumn-103 {
+	width:270px;
+}
+col._idGenTableRowColumn-104 {
+	width:318px;
+}
+col._idGenTableRowColumn-105 {
+	width:256px;
+}
+col._idGenTableRowColumn-106 {
+	width:254px;
+}
+col._idGenTableRowColumn-107 {
+	width:238px;
+}
+col._idGenTableRowColumn-108 {
+	width:193px;
+}
+tr._idGenTableRowColumn-109 {
+	min-height:39px;
+}
+tr._idGenTableRowColumn-110 {
+	background-color:#e8ecf3;
+	min-height:77px;
+}
+col._idGenTableRowColumn-111 {
+	width:88px;
+}
+col._idGenTableRowColumn-112 {
+	width:146px;
+}
+tr._idGenTableRowColumn-113 {
+	background-color:#bac6dc;
+	min-height:128px;
+}
+tr._idGenTableRowColumn-114 {
+	min-height:128px;
+}
+col._idGenTableRowColumn-115 {
+	width:336px;
+}
+col._idGenTableRowColumn-116 {
+	width:139px;
+}
+col._idGenTableRowColumn-117 {
+	width:800px;
+}
+tr._idGenTableRowColumn-118 {
+	min-height:105px;
+}
+img._idGenObjectAttribute-1 {
+	height:97px;
+	width:57px;
+}
+img._idGenObjectAttribute-2 {
+	height:83px;
+	width:56px;
+}
+img._idGenObjectAttribute-3 {
+	height:91px;
+	width:73px;
+}
+img._idGenObjectAttribute-4 {
+	height:92px;
+	width:65px;
+}
+img._idGenObjectAttribute-5 {
+	height:90px;
+	width:74px;
+}
+img._idGenObjectAttribute-6 {
+	width:57.85%;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
